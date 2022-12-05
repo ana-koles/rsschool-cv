@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(29, 28, 28);
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    color: #6B4C3A;
+    margin-top: 0;
+}
+
+h2 {
+    color: #473C38;
+}
+
+.contact-info {
+    height: 350px;
+    background: #F8F7F2;
+    width: 100%;
+    margin: 0;
+    max-width: none;
+    border-bottom:3px solid #6B4C3A;
+}
+
+
+.contact-info__content {
+    width: 80%;
+    margin: 0  auto;
+    max-width: 1140px;
+    padding-top: 60px;
+
+    }
+
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1140px;
+    position: relative;
+}
+
+
+.contact-info__list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-me {
+    margin-top: 40px;
+}
+
+span {
+    font-weight: bolder;
+}
+
+section:not(:first-child) {
+    margin-bottom: 40px;
+}
+
+.footer-content
+    {
+        width: 80%;
+        margin: 0  auto;
+        max-width: 1140px;
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+img {
+    width: 50px;
+}
